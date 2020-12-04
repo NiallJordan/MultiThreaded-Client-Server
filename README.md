@@ -1,16 +1,16 @@
 # MultiThreaded-Client-Server
 
-##Process
+## Process
 1) Start database (XAMP,MAMP)
 2) Start the server
 3) Start a Client
 
 
-##Server: 
+## Server: 
 Server only accepts requests from registered students. Server creates a thread once a request is received and
 is validated. Received radius from the Client and calculates the Area Of Circle. Sends the AoC to the client over
 DataStream.
-##Client: 
+## Client: 
 A Client can only press the login button after entering a number. They will receive a message whether that 
 STUD_ID is valid from the Server. Once logged in the user can access the AoC panel below, where they can send the 
 radius to the Server to calculate the area of the circle based on the request sent.
