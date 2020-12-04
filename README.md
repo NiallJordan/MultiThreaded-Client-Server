@@ -27,5 +27,5 @@ students
 - TOT_REQ(INT(8))
 
 
-# Resources: 
+## Resources: 
 The jar files, sql files and a jpeg of the uml diagram are included in the resources folder. 
