@@ -15,9 +15,17 @@ A Client can only press the login button after entering a number. They will rece
 STUD_ID is valid from the Server. Once logged in the user can access the AoC panel below, where they can send the 
 radius to the Server to calculate the area of the circle based on the request sent.
 
-Database: Assign2
-Table: students
-Structure: SID (INT(2), UK), STUD_ID (INT(8)), FNAME (VARCHAR(20)),SNAME (VARCHAR(20)), TOT_REQ(INT(8))
+## Database: 
+Assign2
+## Table:
+students
+## Structure: 
+- SID (INT(2), UK), 
+- STUD_ID (INT(8)), 
+- FNAME (VARCHAR(20)),
+- SNAME (VARCHAR(20)), 
+- TOT_REQ(INT(8))
 
 
-Resources: The jar files, sql files and a jpeg of the uml diagram are included in the resources folder. 
+# Resources: 
+The jar files, sql files and a jpeg of the uml diagram are included in the resources folder. 
